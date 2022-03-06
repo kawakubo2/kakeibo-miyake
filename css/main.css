@@ -1,0 +1,34 @@
+#error_summary {
+	color: red;
+}
+
+#success_message {
+	color: blue;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #999;
+	padding: 0.3rem;
+}
+
+td.number {
+	text-align: right;
+}
+
+/* 集計テーブル用 */
+table#himoku_month thead {
+	background: lemonchiffon;
+}
+table#himoku_month tfoot {
+    background: khaki;
+}
+table#himoku_month colgroup#himoku_label {
+    background: aquamarine;
+}
+table#himoku_month colgroup#summary_data {
+    background: whitesmoke;
+}
